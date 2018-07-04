@@ -1,14 +1,3 @@
-
-const WARN_SHOULD_BE_OBJ = 'should be an object';
-const WARN_SHOULD_BE_NULL = 'should be null';
-const WARN_SHOULD_BE_NOT_NULL = 'should not be null';
-const WARN_SHOULD_HAVE_KEY = 'should have key ';
-const WARN_SHOULD_NOT_HAVE_KEY = 'should not have key ';
-const WARN_SHOULD_BE_UNDEFINED = 'should be undefined';
-const WARN_SHOULD_BE_TYPE = 'should be a string ';
-const TIMEOUT = 10000;
-
-
 let path = require( 'path' );
 let util = require( 'util' );
 let huobi = require('node-huobi-api');
